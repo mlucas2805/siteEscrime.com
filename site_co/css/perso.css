@@ -1,0 +1,67 @@
+#header_bar {
+    background: #66CCFF;
+    color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10020;
+}
+#cadre {
+
+    opacity: 0.900;
+    background-color: #3e3e3e;
+    /*position: absolute;*/
+    z-index: 2;
+    color:white;
+}
+#footerperso{
+
+    background-color: #3e3e3e;
+    min-height:100px;
+    color: white;
+
+
+}
+/* *** CSS MENU *** */
+/* *** CSS Connexion *** */
+.navbar-inverse.navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+    background-color: #60A6D6;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #333;
+}
+.dropdown-menu{
+    border-radius: 10px;
+    padding: 20px;
+    color: #000000;
+    background: #66CCFF;
+}
+.menu {
+    font-size: 18px;
+}
+
+.btn{
+    margin: 10px;
+
+}
+
+.form > input
+{
+    margin: 10px;
+}
+
+.dropdown {
+
+}
+
+#logout{
+    float: right;
+
+}
+
+a > .dropdown-toggle:hover{
+    background: #60A6D6;
+}
+
+
