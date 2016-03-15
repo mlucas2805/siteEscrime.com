@@ -59,9 +59,15 @@
     float: right;
 
 }
+.login
+{
+    float:right;
+}
 
 a > .dropdown-toggle:hover{
     background: #60A6D6;
 }
 
 
+/* *** PAGE ENTRAINEMENT *** */
+.panel{margin-top: 50px;}

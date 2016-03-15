@@ -17,3 +17,7 @@ $(window).scroll(function(){
     }
     lastScrollTop = st;
 });
+
+$( "#btn_deco" ).click(function() {
+    alert( "Vous êtes bien déconnecté, merci de votre visite, à bientôt !" );
+});
