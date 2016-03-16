@@ -38,11 +38,8 @@ if(isset($_GET['message'])){
         <?php
 
 
-        $sql = 'SELECT membres_syndic_tbl.id_membre_syndic,membres_syndic_tbl.id_user,nom,prenom,users_tbl.id_photo,url,users_tbl.id_user, taches_tbl.id_tache,nom_tache,description_tache , membres_syndic_tbl.id_tache
-                FROM membres_syndic_tbl
-                LEFT JOIN users_tbl ON users_tbl.id_user = membres_syndic_tbl.id_user
-                LEFT JOIN taches_tbl ON taches_tbl.id_tache = membres_syndic_tbl.id_tache
-                LEFT JOIN photo_tbl ON photo_tbl.id_photo = users_tbl.id_photo';
+        $sql = 'SELECT id_users, users_sexe, users_lastname, users_firstname, users_mdp, users_email, users_licence, users_grade, users_photo_profil, users_profil
+                FROM users_tbl WHERE users_grade = ? ';
 
         $requete= $bdd->prepare($sql);
         $requete->execute();
@@ -57,39 +54,6 @@ if(isset($_GET['message'])){
         }?>
     </div>
 
-
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
-            </div>
-        </div>
-        <!-- /.row -->
-    </footer>
-
-</div>
-
-<?php
-include('includes/footer.php')
-?>
-<!-- /.container -->
-
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-<script src="js/scriptperso.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('[data-toggle="popover"]').popover();
-    });
-</script>
-
-</body>
-
-</html>
+    <?php
+    include('includes/footer.php')
+    ?>

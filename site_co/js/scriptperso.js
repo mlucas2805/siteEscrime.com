@@ -21,3 +21,7 @@ $(window).scroll(function(){
 $( "#btn_deco" ).click(function() {
     alert( "Vous êtes bien déconnecté, merci de votre visite, à bientôt !" );
 });
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
