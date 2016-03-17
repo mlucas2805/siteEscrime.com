@@ -1,8 +1,8 @@
 <!-- Footer -->
 <footer id="footerperso">
     <div class="row">
-        <div class="col-lg-3 col-lg-push-5">
-            <p>Copyright &copy; Escrime club Montigny les Cormeilles</p>
+        <div class="col-lg-4 col-lg-push-4">
+            <p class="copyright">Copyright &copy; Escrime club Montigny les Cormeilles</p>
         </div>
     </div>
     <!-- /.row -->

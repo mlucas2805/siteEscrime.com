@@ -13,6 +13,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/business-frontpage.css" rel="stylesheet">

@@ -1,8 +1,7 @@
 #header_bar {
-    background: #66CCFF;
+    background: #ffffff;
     color: black;
     position: fixed;
-    top: 0px;
     width: 100%;
     z-index: 10020;
 }
@@ -16,26 +15,34 @@
 }
 #footerperso{
 
-    background-color: #3e3e3e;
+    background-color: #4c4c4c;
     min-height:100px;
     color: white;
-
-
+}
+.copyright{
+    font-size: 11px;
 }
 /* *** CSS MENU *** */
 /* *** CSS Connexion *** */
 .navbar-inverse.navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
-    background-color: #60A6D6;
+    background-color: #ffffff;
 }
 .navbar-inverse .navbar-nav > li > a
 {
     color: #333;
 }
+.navbar .navbar-default .navbar-custom .navbar-fixed-top{
+    color: #222222;
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle
+{
+    background-color: #333;
+}
 .dropdown-menu{
     border-radius: 10px;
     padding: 20px;
     color: #000000;
-    background: #66CCFF;
+    background: #ffffff;
 }
 .menu {
     font-size: 18px;
@@ -43,7 +50,6 @@
 
 .btn{
     margin: 10px;
-
 }
 
 .form > input
@@ -51,13 +57,8 @@
     margin: 10px;
 }
 
-.dropdown {
-
-}
-
 #logout{
     float: right;
-
 }
 .login
 {
@@ -65,7 +66,20 @@
 }
 
 a > .dropdown-toggle:hover{
-    background: #60A6D6;
+    background: #ffffff;
+}
+
+
+/* *** HEADER INDEX *** */
+.intro-header
+{
+    margin-top: -10px;
+}
+.site-heading > h1{
+    /*color: #66CCFF;*/
+}
+.site-heading > h2{
+    color: #0b4a07;
 }
 
 

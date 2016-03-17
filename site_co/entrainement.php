@@ -25,23 +25,17 @@ include('includes/menu.php');
             <tbody>
             <?php
             $sql ="SELECT id_entrainement, day_entrainement, hour_debut_entrainement, hour_fin_entrainement, niveau_entrainement, armes_entrainement FROM entrainement_tbl WHERE id_entrainement = ? ORDER BY hour_debut_entrainement ASC";
-            //echo $sql;
-            //$req = $bdd->query($sql);
             $req = $bdd->prepare($sql);
-            //$req->bindParam('id_users', $idUsers, PDO::PARAM_INT, 1);
+            $req->bindParam('id_entrainement', $idEntrainement, PDO::PARAM_INT, 1);
             $req->execute() or die(print_r($bdd->errorInfo()));
-            //$req->execute() or die(print_r('impossible de se connecter'));
-            //echo '<!-- remplissage à partir de la base de données -->';
 
             $i=1;
-
             while($ligne = $req->fetch(PDO::FETCH_OBJ))
             {
                 if($i>3)
                 {
                     $i=1;
                 }
-
                 switch($i) // switch pour attribuer une class différente sur chaque ligne
                 {
                     case 1:
@@ -54,7 +48,6 @@ include('includes/menu.php');
                         $tr='info';
                         break;
                 }
-
                 $hourDebut      = $ligne->hour_debut_entrainement;
                 $hourFin        = $ligne->hour_fin_entrainement;
                 $Day            = $ligne-> day_entrainement;
@@ -62,7 +55,6 @@ include('includes/menu.php');
                 $armes          = $ligne->armes_entrainement;
 
                 ?>
-
                 <tr class="<?php echo $tr; ?>">
                     <td><?php echo utf8_encode($Day); ?></td>
                     <td><?php echo utf8_encode($hourDebut); ?></td>

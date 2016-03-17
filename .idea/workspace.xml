@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21213e68-a3dd-48c2-a54f-9dde3276cfd9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\siteEscrime\siteEscrime.com\site_co\INDEX.HTML" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\siteEscrime\siteEscrime.com\site_co\image\escalier.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\siteEscrime\siteEscrime.com\site_co\image\hall.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\siteEscrime\siteEscrime.com\site_co\image\logement.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\siteEscrime\siteEscrime.com\site_co\image\vue_logement.jpg" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\siteEscrime\siteEscrime.com\site_co\includes\menu2.php" afterPath="$PROJECT_DIR$/site_co/includes/menuOther.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\siteEscrime\siteEscrime.com\site_co\membre.php" afterPath="$PROJECT_DIR$/site_co/equipe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_co/contact.php" afterPath="$PROJECT_DIR$/site_co/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_co/deconnexion.php" afterPath="$PROJECT_DIR$/site_co/deconnexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_co/entrainement.php" afterPath="$PROJECT_DIR$/site_co/entrainement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_co/includes/footer.php" afterPath="$PROJECT_DIR$/site_co/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_co/index.php" afterPath="$PROJECT_DIR$/site_co/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_co/includes/menu.php" afterPath="$PROJECT_DIR$/site_co/includes/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_co/js/scriptperso.js" afterPath="$PROJECT_DIR$/site_co/js/scriptperso.js" />
-    </list>
+    <list default="true" id="21213e68-a3dd-48c2-a54f-9dde3276cfd9" name="Default" comment="" />
     <ignored path="siteEscrime.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -43,8 +28,8 @@
       <file leaf-file-name="entrainement.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site_co/entrainement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.25113636" vertical-offset="612" max-vertical-offset="1496">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.28977272" vertical-offset="612" max-vertical-offset="1496">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding>
                 <marker date="1458143169733" expanded="true" signature="861:1075" placeholder="SELECT id_en..entrainement_tbl..." />
               </folding>
@@ -468,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site_co/entrainement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.25113636" vertical-offset="612" max-vertical-offset="1496">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.28977272" vertical-offset="612" max-vertical-offset="1496">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <marker date="1458143169733" expanded="true" signature="861:1075" placeholder="SELECT id_en..entrainement_tbl..." />
           </folding>
