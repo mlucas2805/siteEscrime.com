@@ -9,12 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo ACCUEIL; ?> </title>
+    <title>Club d'Escrime de Montigny-les-Cormeilles</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/clean-blog.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/iHover.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/business-frontpage.css" rel="stylesheet">
