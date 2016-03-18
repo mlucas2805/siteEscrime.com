@@ -1,7 +1,4 @@
 <?php
-session_start();
-//include('includes/connect_db.php');// J'ai mis en commentaire cette ligne pour travailler le FRONT END du site sans avoir à insérer la base de données
-include('includes/langues.php');
 include('includes/entete.php');
 include('includes/menu.php');
 ?>
@@ -64,6 +61,7 @@ include('includes/menu.php');
         </div>
     </div>
     <hr class="separation">
+
     <div class="container">
         <div class="row">
             <h1>L'Epée</h1>
@@ -72,11 +70,11 @@ include('includes/menu.php');
             </p>
             <h1>Le Sabre</h1>
             <p>
-                Au sabre on touche de la pointe et du tranchant de la lame, les touches ne sont valables qu'au dessus de la ceinture.
+                Le sabre est une arme conventionnelle, les coups sont portés avec la pointe et aussi avec le tranchant de l'arme, les touches ne sont valables qu'au dessus de la ceinture.
             </p>
             <h1>Le Fleuret</h1>
             <p>
-                Au fleuret, on ne touche que de la pointe. Au bout de la lame, il y a une pointe munie d'un ressort, il faut une pression de 500 g pour toucher sur la cuirasse métallique de l'adversaire, une lampe rouge ou verte s'allume il y a touche (point), par contre si la pointe touche une partie du corps sans cuirasse, une lampe blanche s'allume il y a touche non valable (pas de point).
+                Au fleuret, on ne touche que de la pointe. Au bout de la lame, il y a une pointe munie d'un ressort, il faut une pression de 500 g pour toucher sur la cuirasse métallique de l'adversaire, une lampe rouge ou verte s'allume il y a touche (point), par contre si la pointe touche une partie du corps sans cuirasse, une lampe blanche s'allume il y a touche non valable (pas de point).C'est une arme conventionnelle qui donne priorité à l'attaque et les échanges se font alternativement.
             </p>
         </div>
     </div>

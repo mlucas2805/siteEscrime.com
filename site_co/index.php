@@ -4,25 +4,9 @@ session_start();
 include('includes/langues.php');
 include('includes/entete.php');
 include('includes/menu.php');
+
+include('includes/headerIndex.php');
 ?>
-
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('image/escrime-bg_opacity.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Club Escrime</h1>
-                        <h2>Montigny les Cormeilles (Val d'oise 95)</h2>
-                        <hr class="small">
-                        <span class="subheading">LA RIPOSTE IGNYMONTAINE</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
@@ -31,7 +15,7 @@ include('includes/menu.php');
             <div class="col-lg-8">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-preview">
-                        <a href="post.html">
+                        <a href="presentation.php">
                             <h2 class="post-title">
                                 Le club La Riposte Ignymontaine, vous accueille, à l'Espace Léonard de Vinci...
                             </h2>
@@ -39,7 +23,7 @@ include('includes/menu.php');
                                 Situé à Montigny-les-Cormeilles, dans le val d'oise(95).
                             </h3>
                         </a>
-                        <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+<!--                        <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>-->
                     </div>
                     <hr>
                     <div class="post-preview">
@@ -51,7 +35,7 @@ include('includes/menu.php');
                                 Des entrainements adaptés à tous les niveaux et à tous âges.
                             </h3>
                         </a>
-                        <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
+<!--                        <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>-->
                     </div>
                     <hr>
                     <div class="post-preview">
@@ -63,13 +47,13 @@ include('includes/menu.php');
                                 Le seul club du 95, à proposer toutes les armes.
                             </h3>
                         </a>
-                        <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
+<!--                        <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>-->
                     </div>
                     <hr>
                     <!-- Pager -->
                     <ul class="pager">
                         <li class="next">
-                            <a href="#">Older Posts &rarr;</a>
+                            <a href="news.php">Voir les news &rarr;</a>
                         </li>
                     </ul>
                 </div>

@@ -1,11 +1,13 @@
 
 <?php
 session_start();
-include('includes/connect_db.php');
+//include('includes/connect_db.php');
 include('includes/langues.php');
 
+include('includes/entete.php');
+include('includes/menu.php');
+include('includes/headerOthers.php');
 ?>
-<?php include('includes/entete.php'); ?>
 <!-- /.container -->
 
 
@@ -66,5 +68,5 @@ include('includes/langues.php');
         <hr></div></div>
 
 <?php
-include('includes/footer.php')
+include('includes/footer.php');
 ?>

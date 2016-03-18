@@ -24,16 +24,18 @@ include('entete.php');
             <ul class="nav navbar-nav navbar-right">
 
                 <li><a href="index.php">Accueil</a></li>
-                <li><a href="#">Règlement du club</a></li>
+                <li><a href="presentation.php">Présentation de l'Escrime</a></li>
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Autres<b class="caret"></b></a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
                     <ul class="dropdown-menu menu">
                         <li><a href="inscription.php">Inscription au club</a></li>
                         <li><a href="equipe.php">Equipe du club</a></li>
                         <li><a href="entrainement.php">Entrainements</a></li>
+                        <li><a href="armes.php">Les armes</a></li>
+                        <li><a href="regle&coti.php">Règlement & Cotisations</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <?php
                 if(!isset($_SESSION['prenom'])){ // si aucune session n'est ouverte
                     ?>
@@ -46,12 +48,15 @@ include('entete.php');
             <?php
             if(isset($_SESSION['prenom'])){ // si une session users est ouverte
                 ?>
+                <li><a href="presentation.php">Présentation de l'Escrime</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="inscription.php">Inscription au club</a></li>
                         <li><a href="equipe.php">Equipe du club</a></li>
                         <li><a href="entrainement.php">Entrainements</a></li>
+                        <li><a href="armes.php">Les armes</a></li>
+                        <li><a href="regle&coti.php">Règlement & Cotisations</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -69,6 +74,7 @@ include('entete.php');
                         <li><a href="matos_a_vendre.php">Matériels à vendre</a></li>
                     </ul>
                 </li>
+                <li><a href="contact.php">Contact</a></li>
                 <li id="logout"><a href="deconnexion.php">' .DECONNECT.'</a></li>
             <?php
             }

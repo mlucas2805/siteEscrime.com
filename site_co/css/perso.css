@@ -1,51 +1,50 @@
-#header_bar {
+#header_bar
+{
     background: #ffffff;
-    color: black;
+    color: #0b4a07;
     position: fixed;
     width: 100%;
     z-index: 10020;
 }
-#cadre {
-
-    opacity: 0.900;
-    background-color: #3e3e3e;
-    /*position: absolute;*/
-    z-index: 2;
-    color:white;
-}
-#footerperso{
+#footerperso
+{
 
     background-color: #4c4c4c;
     min-height:100px;
     color: white;
 }
-.copyright{
+.copyright
+{
     font-size: 11px;
 }
+
 /* *** CSS MENU *** */
-/* *** CSS Connexion *** */
-.navbar-inverse.navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
-    background-color: #ffffff;
+
+.navbar-inverse.navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus
+{
+    background-color: #195ea7;
 }
 .navbar-inverse .navbar-nav > li > a
 {
-    color: #333;
+    color:#0b4a07;
 }
-.navbar .navbar-default .navbar-custom .navbar-fixed-top{
-    color: #222222;
-}
-.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle
+.navbar .navbar-default .navbar-custom .navbar-fixed-top
 {
-    background-color: #333;
+    color: #0b4a07;
 }
-.dropdown-menu{
+a >.dropdown-menu{
     border-radius: 10px;
     padding: 20px;
-    color: #000000;
+    color: #0b4a07;
     background: #ffffff;
 }
 .menu {
     font-size: 18px;
+}
+
+.dropdown-toggle:hover
+{
+    background: #0b4a07;
 }
 
 .btn{
@@ -57,7 +56,10 @@
     margin: 10px;
 }
 
-#logout{
+/* *** CSS Connexion *** */
+
+#logout
+{
     float: right;
 }
 .login
@@ -65,37 +67,51 @@
     float:right;
 }
 
-a > .dropdown-toggle:hover{
-    background: #ffffff;
-}
-
 
 /* *** HEADER INDEX *** */
+
 .intro-header
 {
     margin-top: -10px;
 }
-.site-heading > h1{
-    /*color: #66CCFF;*/
-}
-.site-heading > h2{
-    color: #0b4a07;
-}
-/* *** PAGE INDEX *** */
-
-.post-title{
+.site-heading > h1
+{
     color: #195ea7;
 }
-.post-subtitle{
+.site-heading > h2
+{
     color: #0b4a07;
 }
 
+/* *** PAGE INDEX *** */
+
+.post-title
+{
+    color: #195ea7;
+}
+.post-subtitle
+{
+    color: #0b4a07;
+}
+
+/* *** PAGE PRESENTATION *** */
+
+.highTitle{
+    color: #0b4a07;
+}
+
+.middleTitle{
+    color: #195ea7;
+}
 
 /* *** PAGE ENTRAINEMENT *** */
+
 .panel{margin-top: 50px;}
 
 /* *** PAGE ARMES *** */
-.separation{
+
+.separation
+{
     margin-top: 50px;
     height: 2px;
     border: 0;
