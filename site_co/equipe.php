@@ -55,5 +55,5 @@ if(isset($_GET['message'])){
     </div>
 
     <?php
-    include('includes/footer.php')
+    include('includes/footer.php');
     ?>

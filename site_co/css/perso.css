@@ -81,7 +81,24 @@ a > .dropdown-toggle:hover{
 .site-heading > h2{
     color: #0b4a07;
 }
+/* *** PAGE INDEX *** */
+
+.post-title{
+    color: #195ea7;
+}
+.post-subtitle{
+    color: #0b4a07;
+}
 
 
 /* *** PAGE ENTRAINEMENT *** */
 .panel{margin-top: 50px;}
+
+/* *** PAGE ARMES *** */
+.separation{
+    margin-top: 50px;
+    height: 2px;
+    border: 0;
+    width:700px;
+    background-color: #0f0f0f;
+}
