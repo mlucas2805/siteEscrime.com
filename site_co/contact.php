@@ -15,16 +15,17 @@ include('includes/headerOthers.php');
 
 <div class="container">
 
-    <div class="row">
-        <div class="col-lg-5" id="cadre">
-            <h1 class="tagline">Contact</h1>
-        </div>
-
+    <div>
+        <h1>Contacter le club Escrime de Montigny-les-Cormeilles</h1>
     </div>
-    <!-- /.row -->
-    <hr>
 
-    <div class="col-lg-5 col-lg-push-3 ">
+    <!-- /.row -->
+    <hr class="separation">
+    <div class="col-lg-2">
+        <img class="img-responsive logoEscrime" src="image/logo-escrime_300px.jpg">
+    </div>
+
+    <div class="col-lg-8">
         <?php if(array_key_exists('errors',$_SESSION)): ?>
             <div class="alert alert-danger">
                 <?php implode('<br>', $_SESSION['errors']); ?>
@@ -56,16 +57,17 @@ include('includes/headerOthers.php');
                 </p>
 
                 <p class="contact-input">
-                    <input required type="text" id="inputPays"  type="text" name="pays" class="form-control" placeholder="Pays" autofocus value="">
-                </p>
-
-                <p class="contact-input">
                     <textarea required id="inputmessage" name="message" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
                 </p>
                 <button type="submit"  class="btn btn-default">Envoyer</button>
             </fieldset>
         </form>
-        <hr></div></div>
+        <hr>
+    </div>
+    <div class="col-lg-2">
+        <img class="img-responsive logoEscrime" src="image/logo-escrime_300px.jpg">
+    </div>
+</div>
 
 <?php
 include('includes/footer.php');
