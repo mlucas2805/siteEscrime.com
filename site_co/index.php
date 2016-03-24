@@ -10,7 +10,7 @@ include('includes/headerIndex.php');
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
-                <img class="img-responsive logoEscrime" src="image/logo-escrime_300px.jpg">
+                <img class="img-responsive logoEscrime" src="public/image/logo-escrime_300px.jpg">
             </div>
             <div class="col-lg-8">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -59,7 +59,7 @@ include('includes/headerIndex.php');
                 </div>
             </div>
             <div class="col-lg-2">
-                <img class="img-responsive logoEscrime" src="image/logo-escrime_300px.jpg">
+                <img class="img-responsive logoEscrime" src="public/image/logo-escrime_300px.jpg">
             </div>
         </div>
     </div>

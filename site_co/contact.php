@@ -22,7 +22,7 @@ include('includes/headerOthers.php');
     <!-- /.row -->
     <hr class="separation">
     <div class="col-lg-2">
-        <img class="img-responsive logoEscrime" src="image/logo-escrime_300px.jpg">
+        <img class="img-responsive logoEscrime" src="public/image/logo-escrime_300px.jpg">
     </div>
 
     <div class="col-lg-8">
@@ -39,23 +39,20 @@ include('includes/headerOthers.php');
         <form action="phpfile.php"  method="post" class="contact" style="margin-top: 10px">
             <fieldset class="contact-inner" style="padding-bottom: 45px">
                 <p class="contact-input">
-                    <input required type="text" id="inputname" type="text" name="name"  class="form-control" placeholder="Votre Nom " autofocus value="">
+                    <input required type="text" id="inputname" name="name" class="form-control" placeholder="Votre Nom " autofocus value="">
                 </p>
                 <p class="contact-input">
-                    <input required type="text" id="inputlastname"  type="text" name="lastname" class="form-control" placeholder="Votre Prénom" autofocus value="">
+                    <input required type="text" id="inputlastname" name="lastname" class="form-control" placeholder="Votre Prénom" autofocus value="">
                 </p>
                 <p class="contact-input">
                     <input required type="email" name="email" class="form-control" id="inputemail" value="" placeholder="Votre Email" autofocus>
                 </p>
-
                 <p class="contact-input">
-                    <input required type="text" id="inputAdresse"  type="text" name="adresse" class="form-control" placeholder="Votre Adresse" autofocus value="">
+                    <input required type="text" id="inputAdresse" name="adresse" class="form-control" placeholder="Votre Adresse" autofocus value="">
                 </p>
-
                 <p class="contact-input">
                     <input   id="inputCodePostal" pattern="[0-9]{5}" type="text" name="codepostal" class="form-control" placeholder="Code Postal" autofocus value="">
                 </p>
-
                 <p class="contact-input">
                     <textarea required id="inputmessage" name="message" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
                 </p>
@@ -65,7 +62,7 @@ include('includes/headerOthers.php');
         <hr>
     </div>
     <div class="col-lg-2">
-        <img class="img-responsive logoEscrime" src="image/logo-escrime_300px.jpg">
+        <img class="img-responsive logoEscrime" src="public/image/logo-escrime_300px.jpg">
     </div>
 </div>
 

@@ -8,10 +8,10 @@
     <!-- /.row -->
 </footer>
 <!-- jQuery -->
-<script src="js/jquery.js"></script>
-<script src="js/scriptperso.js"></script>
+<script src="public/js/jquery.js"></script>
+<script src="public/js/scriptperso.js"></script>
 <!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
 
 </body>
 

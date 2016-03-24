@@ -32,13 +32,15 @@
 {
     color: #0b4a07;
 }
-a >.dropdown-menu{
+a >.dropdown-menu
+{
     border-radius: 10px;
     padding: 20px;
     color: #0b4a07;
     background: #ffffff;
 }
-.menu {
+.menu
+{
     font-size: 18px;
 }
 
@@ -83,6 +85,28 @@ a >.dropdown-menu{
     color: #0b4a07;
 }
 
+
+/* *** HEADER OTHERS *** */
+
+.embleme{
+    margin-top: 10px;
+}
+.titleOthersHead h1{
+    color: #0b4a07;
+}
+.titleOthersHead h2{
+    color: #195ea7;
+}
+.titleOthersHead span{
+    color: #0b4a07;
+}
+.bigSize{
+    max-width: 500px;
+    margin: 15px auto;
+    border-width: 2px;
+    border-color: black;
+}
+
 /* *** PAGE INDEX *** */
 
 .post-title
@@ -96,11 +120,13 @@ a >.dropdown-menu{
 
 /* *** PAGE PRESENTATION *** */
 
-.highTitle{
+.highTitle
+{
     color: #0b4a07;
 }
 
 .middleTitle{
+    margin-top: 10px;
     color: #195ea7;
 }
 
@@ -110,11 +136,14 @@ a >.dropdown-menu{
 
 /* *** PAGE ARMES *** */
 
-.separation
-{
-    margin-top: 50px;
-    height: 2px;
-    border: 0;
-    width:700px;
-    background-color: #0f0f0f;
+.text{
+    margin: 10px;
+    padding: 10px;
+
+}
+.circle{
+    margin-bottom: 15px;
+}
+.textCircleHover{
+    font-size: 18px;
 }
