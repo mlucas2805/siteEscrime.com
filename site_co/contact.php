@@ -6,7 +6,8 @@ include('includes/langues.php');
 
 include('includes/entete.php');
 include('includes/menu.php');
-include('includes/headerOthers.php');
+include('includes/headerIndex.php');
+
 ?>
 <!-- /.container -->
 
@@ -16,7 +17,7 @@ include('includes/headerOthers.php');
 <div class="container">
 
     <div>
-        <h1>Contacter le club Escrime de Montigny-les-Cormeilles</h1>
+        <h2>Contacter le club Escrime de Montigny-les-Cormeilles</h2>
     </div>
 
     <!-- /.row -->
@@ -39,22 +40,22 @@ include('includes/headerOthers.php');
         <form action="phpfile.php"  method="post" class="contact" style="margin-top: 10px">
             <fieldset class="contact-inner" style="padding-bottom: 45px">
                 <p class="contact-input">
-                    <input required type="text" id="inputname" name="name" class="form-control" placeholder="Votre Nom " autofocus value="">
+                    <input required type="text" id="inputname" name="name" class="form-control" placeholder="Votre Nom *" autofocus value="">
                 </p>
                 <p class="contact-input">
-                    <input required type="text" id="inputlastname" name="lastname" class="form-control" placeholder="Votre Prénom" autofocus value="">
+                    <input required type="text" id="inputlastname" name="lastname" class="form-control" placeholder="Votre Prénom *" autofocus value="">
                 </p>
                 <p class="contact-input">
-                    <input required type="email" name="email" class="form-control" id="inputemail" value="" placeholder="Votre Email" autofocus>
+                    <input required type="email" name="email" class="form-control" id="inputemail" value="" placeholder="Votre Email *" autofocus>
                 </p>
                 <p class="contact-input">
-                    <input required type="text" id="inputAdresse" name="adresse" class="form-control" placeholder="Votre Adresse" autofocus value="">
+                    <input required type="text" id="inputAdresse" name="adresse" class="form-control" placeholder="Votre Adresse *" autofocus value="">
                 </p>
                 <p class="contact-input">
-                    <input   id="inputCodePostal" pattern="[0-9]{5}" type="text" name="codepostal" class="form-control" placeholder="Code Postal" autofocus value="">
+                    <input   id="inputCodePostal" pattern="[0-9]{5}" type="text" name="codepostal" class="form-control" placeholder="Code Postal *" autofocus value="">
                 </p>
                 <p class="contact-input">
-                    <textarea required id="inputmessage" name="message" class="form-control"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
+                    <textarea required id="inputmessage" name="message" class="form-control" placeholder="Votre message juste ici *"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
                 </p>
                 <button type="submit"  class="btn btn-default">Envoyer</button>
             </fieldset>

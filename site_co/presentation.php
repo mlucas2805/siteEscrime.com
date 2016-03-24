@@ -3,6 +3,7 @@ include('includes/entete.php');
 include('includes/menu.php');
 
 include('includes/headerOthers.php');
+include('includes/socialMedia.php');
 ?>
 
     <div class="container">
@@ -12,8 +13,6 @@ include('includes/headerOthers.php');
                 <div class="col-lg-8">
                     <p>
                         L’escrime est un sport de combat. Il s’agit de l’art de toucher un adversaire avec la pointe ou le tranchant (estoc et taille) d’une arme blanche sur les parties valables sans être touché.<br>
-                    </p>
-                    <p>
                         On utilise trois types d'armes : <strong>l’épée</strong> (discipline olympique depuis 1900 pour les hommes et 1956 pour les femmes), <strong>le sabre</strong> (discipline olympique depuis 1896 pour
                         les hommes et 2004 pour les femmes) et <strong>le fleuret</strong> (discipline olympique depuis 1896 pour les hommes et 1924 pour les femmes). Ces trois armes sont sexuées : épée féminine et masculine,
                         fleuret féminin et masculin et sabre féminin et masculin. Les épreuves sont individuelles ou par équipes. Elles sont donc au nombre de douze.<br>

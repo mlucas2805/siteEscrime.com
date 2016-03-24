@@ -25,3 +25,12 @@ $( "#btn_deco" ).click(function() {
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
 });
+
+// BOUTONS DE PARTAGE RESEAUX SOCIAUX
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 50) { //niveau d'apparution au scroll
+        $('#menu').fadeIn(300); // vitesse d'apparution
+    } else {
+        $('#menu').fadeOut(300); // vitesse de disparution
+    }
+});

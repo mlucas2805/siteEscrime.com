@@ -6,16 +6,28 @@
     width: 100%;
     z-index: 10020;
 }
-#footerperso
-{
 
-    background-color: #4c4c4c;
-    min-height:100px;
-    color: white;
-}
-.copyright
+/* *** CSS BOUTON DE PARTAGE RESEAUX SOCIAUX *** */
+#menu
 {
-    font-size: 11px;
+    position:fixed;
+    top:30%;
+    width:10%;
+    height:	auto;
+    color: #FFFFFF;
+    z-index:9998;
+    display: none;
+    margin-left: 0%;
+}
+
+#menu ul
+{
+    list-style-type: none;
+}
+
+#menu li
+{
+    margin-top: 20px;
 }
 
 /* *** CSS MENU *** */
@@ -138,12 +150,24 @@ a >.dropdown-menu
 
 .text{
     margin: 10px;
-    padding: 10px;
-
+    padding: 15px;
 }
 .circle{
     margin-bottom: 15px;
 }
 .textCircleHover{
     font-size: 18px;
+}
+
+/* *** FOOTER *** */
+
+#footerperso
+{
+    background-color: #4c4c4c;
+    min-height:100px;
+    color: white;
+}
+.copyright
+{
+    font-size: 11px;
 }
