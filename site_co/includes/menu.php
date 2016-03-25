@@ -28,7 +28,6 @@ include('entete.php');
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
                     <ul class="dropdown-menu menu">
-                        <li><a href="inscription.php">Inscription au club</a></li>
                         <li><a href="equipe.php">Equipe du club</a></li>
                         <li><a href="entrainement.php">Entrainements</a></li>
                         <li><a href="armes.php">Les armes</a></li>
@@ -52,7 +51,6 @@ include('entete.php');
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="inscription.php">Inscription au club</a></li>
                         <li><a href="equipe.php">Equipe du club</a></li>
                         <li><a href="entrainement.php">Entrainements</a></li>
                         <li><a href="armes.php">Les armes</a></li>

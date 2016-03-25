@@ -159,6 +159,21 @@ a >.dropdown-menu
     font-size: 18px;
 }
 
+/* *** PAGE COTISATION & REGLEMENT *** */
+
+.devise{
+    border: 2px solid #080808;
+    text-align: center;
+    padding: 8px;
+    margin: 50px;
+}
+h2{
+    font-size: 25px;
+}
+
+
+
+
 /* *** FOOTER *** */
 
 #footerperso
