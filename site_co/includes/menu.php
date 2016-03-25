@@ -15,11 +15,6 @@ include('entete.php');
             </button>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <!--            <div class="collapse menu navbar-collapse" id="bs-example-navbar-collapse-1">-->
-        <!--                <ul class="nav navbar-nav">-->
-        <!--                    -->
-        <!--                    other menu -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 
@@ -28,21 +23,15 @@ include('entete.php');
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
                     <ul class="dropdown-menu menu">
-                        <li><a href="equipe.php">Equipe du club</a></li>
                         <li><a href="entrainement.php">Entrainements</a></li>
-                        <li><a href="armes.php">Les armes</a></li>
+                        <li><a href="armes.php">Armes & Maîtres d'armes</a></li>
                         <li><a href="regle&coti.php">Règlement & Cotisations</a></li>
                     </ul>
                 </li>
                 <li><a href="contact.php">Contact</a></li>
                 <?php
                 if(!isset($_SESSION['prenom'])){ // si aucune session n'est ouverte
-                    ?>
-
-                    <!--<a href=""><img class="english img-responsive" src="images/drapeau-anglais.jpg"></a>
-                    <a href=""><img class="french img-responsive" src="images/drapeau-francais.jpg"></a>-->
-                    <!--<a href="connexion.php" ><button type="button" class="login btn btn-primary btn-lg"><span class="glyphicon glyphicon-log-in"></span> Connexion</button></a>-->
-                    <?php include('connexion.php');}?>
+                   include('connexion.php');}?>
             </ul>
             <?php
             if(isset($_SESSION['prenom'])){ // si une session users est ouverte
@@ -51,9 +40,8 @@ include('entete.php');
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="equipe.php">Equipe du club</a></li>
                         <li><a href="entrainement.php">Entrainements</a></li>
-                        <li><a href="armes.php">Les armes</a></li>
+                        <li><a href="armes.php">Les armes et les Maître d'armes</a></li>
                         <li><a href="regle&coti.php">Règlement & Cotisations</a></li>
                     </ul>
                 </li>

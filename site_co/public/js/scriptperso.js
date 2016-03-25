@@ -1,7 +1,9 @@
 
 var opacity = 1;
 var lastScrollTop = 0;
-$(window).scroll(function(){
+
+$(window).scroll(function()
+{
     var st = $(this).scrollTop();
     if(st == 0)
         $('#header_bar').css('opacity','1');
@@ -18,19 +20,24 @@ $(window).scroll(function(){
     lastScrollTop = st;
 });
 
-$( "#btn_deco" ).click(function() {
+$( "#btn_deco" ).click(function()
+{
     alert( "Vous êtes bien déconnecté, merci de votre visite, à bientôt !" );
 });
 
-$(document).ready(function(){
+$(document).ready(function()
+{
     $('[data-toggle="popover"]').popover();
 });
 
 // BOUTONS DE PARTAGE RESEAUX SOCIAUX
 $(window).scroll(function(){
-    if ($(this).scrollTop() > 50) { //niveau d'apparution au scroll
+    if ($(this).scrollTop() > 50) //niveau d'apparution au scroll
+    {
         $('#menu').fadeIn(300); // vitesse d'apparution
-    } else {
+    }
+    else
+    {
         $('#menu').fadeOut(300); // vitesse de disparution
     }
 });

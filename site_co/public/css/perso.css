@@ -169,9 +169,12 @@ a >.dropdown-menu
 
 /* *** PAGE INDEX *** */
 
+
 .post-title
 {
     color: #195ea7;
+
+
 }
 .post-subtitle
 {
@@ -207,6 +210,12 @@ a >.dropdown-menu
     font-size: 18px;
 }
 
+.secondContainer{
+    margin-top: 100px;
+}
+.title{
+    margin-bottom: 50px;
+}
 /* *** PAGE COTISATION & REGLEMENT *** */
 
 .devise{

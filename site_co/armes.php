@@ -2,10 +2,15 @@
 include('includes/entete.php');
 include('includes/menu.php');
 include('includes/headerOthers.php');
+
+
+include('includes/socialMedia.php');
 ?>
 
     <div class="container">
         <div class="row">
+            <h1 class="highTitle">Les différentes armes utilisées en escrime : </h1>
+            <br>
             <div class="circle col-sm-4">
 
                 <!-- normal -->
@@ -88,7 +93,85 @@ include('includes/headerOthers.php');
         </div>
     </div>
 
+    <div class="container">
+        <div class="row secondContainer">
+            <h1 class="middleTitle title">Les Maîtres d'armes de Montigny-les-Cormeilles : </h1>
+            <div class="circle col-sm-4">
 
+                <!-- normal -->
+                <div class="ih-item circle effect1"><a href="#">
+                        <div class="spinner"></div>
+                        <div class="img">
+                            <img class="img-responsive" src="public/image/MaîtreH.Yamac.jpg" alt="img">
+                        </div>
+                        <div class="info">
+                            <div class="info-back">
+                                <h3>Maître H. Yamac</h3>
+                            </div>
+                        </div></a></div>
+                <!-- end normal -->
+
+            </div>
+
+            <div class="circle col-sm-4">
+
+                <!-- colored -->
+                <div class="ih-item circle colored effect1"><a href="#">
+                        <div class="spinner"></div>
+                        <div class="img">
+                            <img class="img-responsive" src="public/image/MaîtreLaurentChauvin.jpg" alt="img">
+                        </div>
+                        <div class="info">
+                            <div class="info-back">
+                                <h3>Maître L. Chauvin</h3>
+                            </div>
+                        </div></a></div>
+                <!-- end colored -->
+
+            </div>
+
+            <div class="circle col-sm-4">
+
+                <!-- colored -->
+                <div class="ih-item circle colored effect1"><a href="#">
+                        <div class="spinner"></div>
+                        <div class="img">
+                            <img class="img-responsive" src="public/image/MaîtreAymericMENARD.jpg" alt="img">
+                        </div>
+                        <div class="info">
+                            <div class="info-back">
+                                <h3>Maître A. Menard</h3>
+                            </div>
+                        </div></a></div>
+                <!-- end colored -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="text">
+                <div class="col-lg-4">
+                    <h1>Maître H. Yamac</h1>
+                    <p>Brevet d'état 1er degré.<br> Arbitre International<br>Ancien escrimeur international (J.O. de Los Angeles, championnats du monde pour la Turquie) <br>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h1>Maître L. Chauvin</h1>
+                    <p>
+                        Brevet d'état 1er degré<br> Arbitre international<br> Ex International
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h1>Maître A. Menard</h1>
+                    <p>
+                        Brevet d'Etat : DEJEPS obtenu en 2012<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php
 include('includes/footer.php');
