@@ -29,7 +29,7 @@
 			<form class="form" name="connexion" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" onsubmit="return control();">
 				<input name="login" id="login" placeholder="Email" type="text">
 				<input name="mdp" id="mdp" placeholder="Mot de passe" type="password"><br>
-				<button type="submit" id="btnLogin" class="btn" value="envoyer">Se connecter</button>
+				<button type="submit" id="btnLogin" class="btn hvr-rectangle-out" value="envoyer">Se connecter</button>
 			</form>
 		</div>
 	</li>
