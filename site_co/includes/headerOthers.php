@@ -1,4 +1,4 @@
-<header class="intro-header" style="background-image: url('image/escrime_bg_sabre_opacity.jpg')">
+<header class="intro-header">
     <div class="container">
         <div class="row">
             <div class="embleme col-lg-2">

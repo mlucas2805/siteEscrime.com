@@ -51,7 +51,7 @@
 
 	//$req = $bdd->query($sql);
 	$req = $bdd->prepare($sql);
-	$req->execute() or die(print_r($bdd->errorInfo()));
+	$req->execute() or die (print_r ($req->errorInfo(), TRUE));
 
 	//echo '<!-- remplissage à partir de la base de données -->';
 	while($ligne = $req->fetch(pdo::FETCH_OBJ))

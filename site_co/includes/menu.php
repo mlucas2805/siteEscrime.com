@@ -29,16 +29,10 @@ include('entete.php');
                     </ul>
                 </li>
                 <li><a href="contact.php">Contact</a></li>
-                <?php
-                if(!isset($_SESSION['prenom']))
-                { // si aucune session n'est ouverte
-                   include('connexion.php');
-                }?>
+                <?php if(!isset($_SESSION['prenom'])){ // si aucune session n'est ouverte
+                   include('connexion.php');}?>
             </ul>
-            <?php
-            if(isset($_SESSION['prenom']))
-            { // si une session users est ouverte
-                ?>
+            <?php if(isset($_SESSION['prenom'])){ // si une session users est ouverte?>
                 <li><a href="presentation.php">Présentation de l'Escrime</a></li>
                 <li class="dropdown">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
@@ -65,9 +59,7 @@ include('entete.php');
                 </li>
                 <li><a href="contact.php">Contact</a></li>
                 <li id="logout"><a href="deconnexion.php">' .DECONNECT.'</a></li>
-            <?php
-            }
-            ?>
+            <?php } ?>
 
         </div>
     </div>

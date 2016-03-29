@@ -1,6 +1,5 @@
-<?php
-session_start();
-//include('includes/connect_db.php');// J'ai mis en commentaire cette ligne pour travailler le FRONT END du site sans avoir à insérer la base de données
+<?php session_start();
+include('includes/connect_db.php');// J'ai mis en commentaire cette ligne pour travailler le FRONT END du site sans avoir à insérer la base de données
 include('includes/langues.php');
 include('includes/entete.php');
 include('includes/menu.php');
