@@ -7,7 +7,7 @@
     z-index: 10020;
 }
 
-/* *** CSS BOUTON DE PARTAGE RESEAUX SOCIAUX *** */
+/* ************************ CSS BOUTON DE RESEAUX SOCIAUX ************************ */
 #menu
 {
     position:fixed;
@@ -30,7 +30,7 @@
     margin-top: 20px;
 }
 
-/* *** CSS MENU *** */
+/* ************************ CSS MENU ************************ */
 
 .navbar-inverse.navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus
 {
@@ -70,7 +70,7 @@ a >.dropdown-menu
     margin: 10px;
 }
 
-/* *** CSS Connexion *** */
+/* ************************ CSS Connexion ************************ */
 
 #logout
 {
@@ -80,14 +80,17 @@ a >.dropdown-menu
 {
     float:right;
 }
-#login{
+#login
+{
     padding: 10px;
 }
-#mdp{
+#mdp
+{
     padding: 10px;
 }
-/* Rectangle Out */
-.hvr-rectangle-out {
+/* *** BOUTON SE CONNCECTER Rectangle Out *** */
+.hvr-rectangle-out
+{
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
@@ -103,7 +106,8 @@ a >.dropdown-menu
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-.hvr-rectangle-out:before {
+.hvr-rectangle-out:before
+{
     content: "";
     position: absolute;
     z-index: -1;
@@ -121,16 +125,18 @@ a >.dropdown-menu
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
+.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active
+{
     color: white;
 }
-.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
+.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before
+{
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
 
-/* *** HEADER INDEX *** */
+/* ************************ HEADER INDEX ************************ */
 
 .intro-header
 {
@@ -146,29 +152,34 @@ a >.dropdown-menu
 }
 
 
-/* *** HEADER OTHERS *** */
+/* ************************ HEADER OTHERS ************************ */
 
-.embleme{
+.embleme
+{
     margin-top: 10px;
 }
-.titleOthersHead h1{
+.titleOthersHead h1
+{
     color: #0b4a07;
 }
-.titleOthersHead h2{
+.titleOthersHead h2
+{
     color: #195ea7;
 }
-.titleOthersHead span{
+.titleOthersHead span
+{
     color: #0b4a07;
 }
-.bigSize{
+.bigSize
+{
     max-width: 500px;
     margin: 15px auto;
     border-width: 2px;
     border-color: black;
 }
 
-/* *** PAGE INDEX *** */
 
+/* ************************ PAGE INDEX ************************ */
 
 .post-title
 {
@@ -181,57 +192,62 @@ a >.dropdown-menu
     color: #0b4a07;
 }
 
-/* *** PAGE PRESENTATION *** */
+/* ************************ PAGE PRESENTATION ************************ */
 
 .highTitle
 {
     color: #0b4a07;
 }
 
-.middleTitle{
+.middleTitle
+{
     margin-top: 10px;
     color: #195ea7;
 }
 
-/* *** PAGE ENTRAINEMENT *** */
+/* ************************ PAGE ENTRAINEMENT ************************ */
 
 .panel{margin-top: 50px;}
 
-/* *** PAGE ARMES *** */
+/* ************************ PAGE ARMES ************************ */
 
-.text{
+.text
+{
     margin: 10px;
     padding: 15px;
 }
-.circle{
+.circle
+{
     margin-bottom: 15px;
 }
-.textCircleHover{
+.textCircleHover
+{
     font-size: 18px;
 }
 
-.secondContainer{
+.secondContainer
+{
     margin-top: 100px;
 }
-.title{
+.title
+{
     margin-bottom: 50px;
 }
-/* *** PAGE COTISATION & REGLEMENT *** */
+/* ************************ PAGE COTISATION & REGLEMENT ************************ */
 
-.devise{
+.devise
+{
     border: 2px solid #080808;
     text-align: center;
     padding: 8px;
     margin: 50px;
 }
-h2{
+h2
+{
     font-size: 25px;
 }
 
-
-
-
-/* *** FOOTER *** */
+/* ************************ FOOTER ************************ */
 
 #footerperso
 {

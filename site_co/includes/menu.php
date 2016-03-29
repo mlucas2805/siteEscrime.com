@@ -30,11 +30,14 @@ include('entete.php');
                 </li>
                 <li><a href="contact.php">Contact</a></li>
                 <?php
-                if(!isset($_SESSION['prenom'])){ // si aucune session n'est ouverte
-                   include('connexion.php');}?>
+                if(!isset($_SESSION['prenom']))
+                { // si aucune session n'est ouverte
+                   include('connexion.php');
+                }?>
             </ul>
             <?php
-            if(isset($_SESSION['prenom'])){ // si une session users est ouverte
+            if(isset($_SESSION['prenom']))
+            { // si une session users est ouverte
                 ?>
                 <li><a href="presentation.php">Présentation de l'Escrime</a></li>
                 <li class="dropdown">

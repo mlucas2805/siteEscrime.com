@@ -30,7 +30,9 @@ $(document).ready(function()
     $('[data-toggle="popover"]').popover();
 });
 
-// BOUTONS DE PARTAGE RESEAUX SOCIAUX
+
+// ______________ BOUTONS DE PARTAGE RESEAUX SOCIAUX
+
 $(window).scroll(function(){
     if ($(this).scrollTop() > 50) //niveau d'apparution au scroll
     {
