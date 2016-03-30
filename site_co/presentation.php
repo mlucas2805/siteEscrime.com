@@ -1,9 +1,14 @@
 <?php
-include('includes/entete.php');
-include('includes/menu.php');
-
-include('includes/headerOthers.php');
-include('includes/socialMedia.php');
+    include('includes/entete.php');
+?>
+    <meta name="description" content="Qu'est ce que l'escrime ? Nous vous avons cr&eacute;&eacute; un petit r&eacute;sum&eacute;">
+    <meta name="keywords" content="escrime club, escrime 95">
+    <title>Présentation de l'Escrime par le club d'escrime du Val d'oise 95</title>
+<?php // ceci nous permet de pouvoir mettre un title différent pour chaque page et ainsi augmenter en référencement
+    include('includes/endHeadPage.php');
+    include('includes/menu.php');
+    include('includes/headerOthers.php');
+    include('includes/socialMedia.php');
 ?>
 
     <div class="container">
@@ -50,5 +55,5 @@ include('includes/socialMedia.php');
         </div>
     </div>
 <?php
-include('includes/footer.php');
+    include('includes/footer.php');
 ?>

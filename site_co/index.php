@@ -1,10 +1,15 @@
 <?php session_start();
-include('includes/connect_db.php');// J'ai mis en commentaire cette ligne pour travailler le FRONT END du site sans avoir à insérer la base de données
-include('includes/langues.php');
-include('includes/entete.php');
-include('includes/menu.php');
-
-include('includes/headerIndex.php');
+    //include('includes/connect_db.php');// J'ai mis en commentaire cette ligne pour travailler le FRONT END du site sans avoir à insérer la base de données
+    include('includes/langues.php');
+    include('includes/entete.php');
+?>
+    <meta name="description" content="Pr&eacute;sentation du club d'escime LA RIPOSTE D'IGNYMONTAINE, &agrave; Montigny-les-Cormeilles dans le Val d'oise">
+    <meta name="keywords" content="club escrime, escrime 95, escrime montigny les cormeilles, club escrime montigny-les-Cormeilles, escrime95, escrime val d'oise, escrime ile-de-france, club escrime Paris">
+    <title>Club d'Escrime de Montigny-les-Cormeilles 95</title>
+<?php // ceci nous permet de pouvoir mettre un title et des meta différentes pour chaque page et ainsi augmenter en référencement
+    include('includes/endHeadPage.php');
+    include('includes/menu.php');
+    include('includes/headerIndex.php');
 ?>
     <div class="container">
         <div class="row">
@@ -64,5 +69,5 @@ include('includes/headerIndex.php');
     </div>
 
 <?php
-include('includes/footer.php');
+    include('includes/footer.php');
 ?>

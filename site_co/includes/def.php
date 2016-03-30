@@ -6,5 +6,4 @@ define('SDBLOGIN'      ,'root');
 define('SDBPASSWORD'   ,'');
 
 
-
 ?>

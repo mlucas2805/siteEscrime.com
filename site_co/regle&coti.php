@@ -1,9 +1,14 @@
 <?php
-include('includes/entete.php');
-include('includes/menu.php');
-include('includes/headerOthers.php');
-
-include('includes/socialMedia.php');
+    include('includes/entete.php');
+?>
+    <meta name="description" content="Cotisations et r&egrave;glement du club de Montigny-les-Cormeilles dans le Val d'oise">
+    <meta name="keywords" content="reglement escrime, cotisations club, club escrime">
+    <title>Cotisations & Règlement du club de Montigny-les-Cormeilles 95</title>
+<?php // ceci nous permet de pouvoir mettre un title différent pour chaque page et ainsi augmenter en référencement
+    include('includes/endHeadPage.php');
+    include('includes/menu.php');
+    include('includes/headerOthers.php');
+    include('includes/socialMedia.php');
 ?>
 
     <div class="container">
@@ -95,5 +100,5 @@ include('includes/socialMedia.php');
 
 
 <?php
-include('includes/footer.php');
+    include('includes/footer.php');
 ?>

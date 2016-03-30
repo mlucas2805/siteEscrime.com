@@ -1,10 +1,14 @@
 <?php
-include('includes/entete.php');
-include('includes/menu.php');
-include('includes/headerOthers.php');
-
-
-include('includes/socialMedia.php');
+    include('includes/entete.php');
+?>
+    <meta name="description" content="Diff&eacute;rentes armes sont utilis&eacute;es dans les clubs d'escrime en France">
+    <meta name="keywords" content="armes escrime, armes club escrime">
+    <title>Armes utilisées par la Riposte D'IGNYMONTAINE</title>
+<?php // ceci nous permet de pouvoir mettre un title différent pour chaque page et ainsi augmenter en référencement
+    include('includes/endHeadPage.php');
+    include('includes/menu.php');
+    include('includes/headerOthers.php');
+    include('includes/socialMedia.php');
 ?>
 
     <div class="container">
@@ -174,5 +178,5 @@ include('includes/socialMedia.php');
     </div>
 
 <?php
-include('includes/footer.php');
+    include('includes/footer.php');
 ?>

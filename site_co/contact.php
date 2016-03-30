@@ -1,18 +1,18 @@
-
 <?php
-session_start();
-//include('includes/connect_db.php');
-include('includes/langues.php');
+    //include('includes/connect_db.php');
+    include('includes/langues.php');
 
-include('includes/entete.php');
-include('includes/menu.php');
-include('includes/headerIndex.php');
+    include('includes/entete.php');
+?>
+        <meta name="description" content="Contacter le club la RIPOSTE D'IGNYMONTAINE avec ce formulaire de contact">
+        <meta name="keywords" content="contact, escrime, club, val d'oise">
+        <title>Contacter le club la RIPOSTE D'IGNYMONTAINE 95</title>
+<?php // ceci nous permet de pouvoir mettre un title différent pour chaque page et ainsi augmenter en référencement
+    include('includes/endHeadPage.php');
+    include('includes/menu.php');
+    include('includes/headerIndex.php');
 
 ?>
-<!-- /.container -->
-
-
-<!-- Note: The background image is set within the business-casual.css file. -->
 
 <div class="container">
 
@@ -68,5 +68,5 @@ include('includes/headerIndex.php');
 </div>
 
 <?php
-include('includes/footer.php');
+    include('includes/footer.php');
 ?>
