@@ -36,10 +36,19 @@ $(document).ready(function()
 $(window).scroll(function(){
     if ($(this).scrollTop() > 50) //niveau d'apparution au scroll
     {
-        $('#menu').fadeIn(300); // vitesse d'apparution
+        $('#socialMedia').fadeIn(300); // vitesse d'apparution
     }
     else
     {
-        $('#menu').fadeOut(300); // vitesse de disparution
+        $('#socialMedia').fadeOut(300); // vitesse de disparution
     }
+});
+
+// _______________FOOTER lien vers le haut
+
+$('a[href="#top"]').on('click', function(e)
+{
+    e.preventDefault();
+    window.scroll(0,0);
+    return false;
 });

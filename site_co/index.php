@@ -7,6 +7,7 @@
     <meta name="keywords" content="club escrime, escrime 95, escrime montigny les cormeilles, club escrime montigny-les-Cormeilles, escrime95, escrime val d'oise, escrime ile-de-france, club escrime Paris">
     <title>Club d'Escrime de Montigny-les-Cormeilles 95</title>
 <?php // ceci nous permet de pouvoir mettre un title et des meta différentes pour chaque page et ainsi augmenter en référencement
+
     include('includes/endHeadPage.php');
     include('includes/menu.php');
     include('includes/headerIndex.php');

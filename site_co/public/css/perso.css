@@ -8,8 +8,9 @@
 }
 
 /* ************************ CSS BOUTON DE RESEAUX SOCIAUX ************************ */
-#menu
+#socialMedia
 {
+    cursor: pointer;
     position:fixed;
     top:30%;
     width:10%;
@@ -20,15 +21,16 @@
     margin-left: 0%;
 }
 
-#menu ul
+#socialMedia ul
 {
     list-style-type: none;
 }
 
-#menu li
+#socialMedia li
 {
     margin-top: 20px;
 }
+.scroll{cursor: pointer;}
 
 /* ************************ CSS MENU ************************ */
 
@@ -253,9 +255,24 @@ h2
 {
     background-color: #4c4c4c;
     min-height:100px;
-    color: white;
+    color: #9a9a9a;
+    text-align: center;
 }
-.copyright
+.linkFooter
 {
-    font-size: 11px;
+    color: #9a9a9a;
+}
+.linkFooter:hover{
+    color: #0b4a07;
+}
+h4
+{
+    text-decoration: underline;
+}
+#scrollToTop img {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
 }
