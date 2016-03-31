@@ -18,7 +18,7 @@
     color: #FFFFFF;
     z-index:9998;
     display: none;
-    margin-left: 0%;
+    margin-left: 0;
 }
 
 #socialMedia ul
@@ -63,30 +63,18 @@ a >.dropdown-menu
     background: #0b4a07;
 }
 
-.btn{
-    margin: 10px;
-}
-
-.form > input
+.form > input, .btn
 {
     margin: 10px;
 }
 
 /* ************************ CSS Connexion ************************ */
 
-#logout
+#logout, .login
 {
     float: right;
 }
-.login
-{
-    float:right;
-}
-#login
-{
-    padding: 10px;
-}
-#mdp
+#login, #mdp
 {
     padding: 10px;
 }
@@ -160,17 +148,13 @@ a >.dropdown-menu
 {
     margin-top: 10px;
 }
-.titleOthersHead h1
+.titleOthersHead h1, span
 {
     color: #0b4a07;
 }
 .titleOthersHead h2
 {
     color: #195ea7;
-}
-.titleOthersHead span
-{
-    color: #0b4a07;
 }
 .bigSize
 {
@@ -186,8 +170,6 @@ a >.dropdown-menu
 .post-title
 {
     color: #195ea7;
-
-
 }
 .post-subtitle
 {

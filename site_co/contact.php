@@ -49,15 +49,9 @@
                     <input required type="email" name="email" class="form-control" id="inputemail" value="" placeholder="Votre Email *" autofocus>
                 </p>
                 <p class="contact-input">
-                    <input required type="text" id="inputAdresse" name="adresse" class="form-control" placeholder="Votre Adresse *" autofocus value="">
-                </p>
-                <p class="contact-input">
-                    <input   id="inputCodePostal" pattern="[0-9]{5}" type="text" name="codepostal" class="form-control" placeholder="Code Postal *" autofocus value="">
-                </p>
-                <p class="contact-input">
                     <textarea required id="inputmessage" name="message" class="form-control" placeholder="Votre message juste ici *"><?php echo isset($_SESSION['inputs']['message'])? $_SESSION['inputs']['message'] : ''; ?></textarea>
                 </p>
-                <button type="submit"  class="btn btn-default">Envoyer</button>
+                <button type="submit"  class="btn hvr-rectangle-out">Envoyer</button>
             </fieldset>
         </form>
         <hr>
