@@ -27,7 +27,7 @@ include('entete.php');
                         <li><a href="">Rencontres Région</a></li>
                         <li><a href="armes.php">Armes & Maîtres d'armes</a></li>
                         <li><a href="regle&coti.php">Règlement & Cotisations</a></li>
-                        <li><a href="">Album photos</a></li>
+                        <li><a href="album.php">Album photos</a></li>
                         <li><a href="">Inscriptions & fichiers</a></li>
                     </ul>
                 </li>

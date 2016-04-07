@@ -231,6 +231,13 @@ h2
     font-size: 25px;
 }
 
+/* ************************ PAGE ALBUM ************************ */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
 /* ************************ FOOTER ************************ */
 
 #footerperso
