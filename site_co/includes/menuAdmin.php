@@ -1,5 +1,5 @@
 <?php
-include('entete.php');
+include('enteteAdmin.php');
 ?>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" id="header_bar" role="navigation">
@@ -19,26 +19,9 @@ include('entete.php');
             <ul class="nav navbar-nav navbar-right">
 
                 <li><a href="index.php">Accueil</a></li>
-                <li><a href="presentation.php">Présentation de l'Escrime</a></li>
+                <li><a href="gestion-utilisateurs.php">Utilisateurs</a></li>
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
-                    <ul class="dropdown-menu menu">
-                        <li><a href="entrainement.php">Entrainements & Calendriers</a></li>
-                        <li><a href="">Rencontres Région</a></li>
-                        <li><a href="armes.php">Armes & Maîtres d'armes</a></li>
-                        <li><a href="regle&coti.php">Règlement & Cotisations</a></li>
-                        <li><a href="">Album photos</a></li>
-                        <li><a href="">Inscriptions & fichiers</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.php">Contact</a></li>
-                <?php if(!isset($_SESSION['prenom'])){ // si aucune session n'est ouverte
-                   include('connexion.php');}?>
-            </ul>
-            <?php if(isset($_SESSION['prenom'])){ // si une session users est ouverte?>
-                <li><a href="presentation.php">Présentation de l'Escrime</a></li>
-                <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Le Club<b class="caret"></b></a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Gestion Club<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="entrainement.php">Entrainements</a></li>
                         <li><a href="armes.php">Les armes et les Maître d'armes</a></li>
@@ -46,7 +29,7 @@ include('entete.php');
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Manifestations<b class="caret"></b></a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Gestion Manifestations<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="entrainement_spe.php">Entrainement spécial</a></li>
                         <li><a href="tournois.php">Tournois Escrime</a></li>
@@ -54,7 +37,7 @@ include('entete.php');
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Blog<b class="caret"></b></a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Gestion Blog<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="news.php">News</a></li>
                         <li><a href="matos_a_vendre.php">Matériels à vendre</a></li>
@@ -62,7 +45,6 @@ include('entete.php');
                 </li>
                 <li><a href="contact.php">Contact</a></li>
                 <li id="logout"><a href="deconnexion.php">' .DECONNECT.'</a></li>
-            <?php } ?>
 
         </div>
     </div>

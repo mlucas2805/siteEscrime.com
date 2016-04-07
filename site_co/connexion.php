@@ -24,7 +24,7 @@
 
 
 	<li class="dropdown " id="menuLogin">
-		<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Se connecter</a>
+		<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Accès Admin</a>
 		<div class="dropdown-menu">
 			<form class="form" name="connexion" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" onsubmit="return control();">
 				<input name="login" id="login" placeholder="Email" type="text">

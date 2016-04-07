@@ -8,7 +8,6 @@
     include('includes/endHeadPage.php');
     include('includes/menu.php');
     include('includes/headerOthers.php');
-    include('includes/socialMedia.php');
 ?>
 
     <div class="container">

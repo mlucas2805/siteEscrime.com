@@ -15,7 +15,7 @@
             <!--            col-lg-push-4-->
             <!--            <p class="copyright">Copyright &copy; Escrime club Montigny les Cormeilles</p>-->
             <p class="copyright">
-            <h4>Liens utiles : </h4>
+            <!--<h4>Liens utiles : </h4>-->
             <a class="linkFooter" href="entrainement.php">Entrainements</a><br>
             <a class="linkFooter" href="regle&coti.php"> Réglement & Cotisations</a><br>
             <a class="linkFooter" href="contact.php"> Contact</a><br>
@@ -23,10 +23,8 @@
         </div>
         <div class="col-lg-4">
             <p class="copyright">
-            <h4>Suivez nous sur les Réseaux Sociaux : </h4>
-            <a class="linkFooter" href="facebook"> Page Facebook</a><br>
-            <a class="linkFooter" href="twitter"> Page Twitter</a><br>
-            <a class="linkFooter" href="google+"> Page Google +</a><br>
+            <h4>Liens divers</h4>
+            <a class="linkFooter" href="http://www.escrime-ffe.fr/">Lien vers la FFE</a><br>
             </p>
         </div>
     </div>
