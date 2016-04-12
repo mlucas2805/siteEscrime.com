@@ -1,7 +1,7 @@
 <!-- Footer -->
 
-<footer id="footerperso">
-    <div class="row">
+<footer class="bottom" id="footerperso">
+    <div class="container">
         <div class="col-lg-4">
             <p class="copyright">
                 La RIPOSTE D'IGNYMONTAINE<br>
