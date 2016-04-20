@@ -36,9 +36,20 @@
 <a href="#top" id="scrollToTop"><img src="public/image/top.png" alt="Top"></a>
 <!-- jQuery -->
 <script src="public/js/jquery.js"></script>
-<script src="public/js/scriptperso.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="public/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="public/js/classie.js"></script>
+<script src="public/js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="public/js/jqBootstrapValidation.js"></script>
+
+<!-- Bootstrap AGENCY Core JavaScript -->
+<script src="public/js/agency.js"></script>
+<script src="public/js/scriptperso.js"></script>
 
 </body>
 
