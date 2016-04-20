@@ -203,6 +203,8 @@ a >.dropdown-menu
 .circle
 {
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .textCircleHover
 {
