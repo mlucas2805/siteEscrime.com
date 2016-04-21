@@ -1,0 +1,14 @@
+.contact {
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.modal-contact {
+    margin-bottom:1px;
+    margin-top:1px;
+}
+.Modal-contact-img{
+    display: block;
+    width: 140px;
+    height: 160px;
+    margin: auto;
+}
