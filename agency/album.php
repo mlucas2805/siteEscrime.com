@@ -11,11 +11,11 @@ include('includes/menu.php');
 include('includes/headerOthers.php');
 ?>
 
-<div class="container">
-    <div class="row">
+    <div class="container">
+        <div class="row">
             <br>
-        <h1 class="highTitle">Voici l'album photos du club</h1>
-        <br>
+            <h1 class="highTitle">Voici l'album photos du club</h1>
+            <br>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -54,56 +54,60 @@ include('includes/headerOthers.php');
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-<br>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
+            <br>
+            <!-- Portfolio Grid Section -->
+            <section id="portfolio" class="bg-light-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="public/image/edj3.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>Les tournois des petits</h4>
+                                <p class="text-muted">Photographie by</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="public/image/fete_noel.jpg" class="img-responsive" alt="Création Design">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>Les fêtes de fin d'année au club</h4>
+                                <p class="text-muted">Photographie by</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="public/image/escrimeNegative.jpg" class="img-responsive" alt="Site associatif d'Escrime Montigny-les-Cormeilles">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>Les entrainements spéciaux</h4>
+                                <p class="text-muted">Photographie by</p>
+                            </div>
                         </div>
                     </div>
-                    <img src="public/image/edj3.jpg" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Les tournois des petits</h4>
-                    <p class="text-muted">Photographie by</p>
+                    <p>C'est ici, que vous pourrez voir et revoir les photos prises durant les entrainements spéciaux, ou bien pendant les tournois. Nous vous rappelons qu'il sera demander à chacun un droit à l'image afin de pouvoir afficher les photos sur le site.</p>
+
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="public/image/fete_noel.jpg" class="img-responsive" alt="Création Design">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Les fêtes de fin d'année au club</h4>
-                    <p class="text-muted">Photographie by</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="public/image/escrimeNegative.jpg" class="img-responsive" alt="Site associatif d'Escrime Montigny-les-Cormeilles">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Les entrainements spéciaux</h4>
-                    <p class="text-muted">Photographie by</p>
-                </div>
-            </div>
+            </section>
         </div>
-       <p>C'est ici, que vous pourrez voir et revoir les photos prises durant les entrainements spéciaux, ou bien pendant les tournois. Nous vous rappelons qu'il sera demander à chacun un droit à l'image afin de pouvoir afficher les photos sur le site.</p>
-
-
     </div>
-</div>
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
