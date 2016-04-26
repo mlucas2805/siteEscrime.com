@@ -14,51 +14,50 @@ include('includes/headerOthers.php');
     <div class="container">
         <div class="row">
             <br>
-            <h1 class="highTitle">Voici l'album photos du club</h1>
-            <br>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="public/image/edj3.jpg" alt="Escrime" width="460" height="345">
-                    </div>
-
-                    <div class="item">
-                        <img src="public/image/escrimeNegative.jpg" alt="Escrime" width="460" height="345">
-                    </div>
-
-                    <div class="item">
-                        <img src="public/image/fete_noel.jpg" alt="fete de Noel" width="460" height="345">
-                    </div>
-
-                    <div class="item">
-                        <img src="public/image/escrime_bg_2.jpg" alt="escrime Negative" width="460" height="345">
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <br>
+            <h1 class="highTitle">Les photos :</h1>
+<!--            <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
+<!--                <!-- Indicators -->
+<!--                <ol class="carousel-indicators">-->
+<!--                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+<!--                    <li data-target="#myCarousel" data-slide-to="1"></li>-->
+<!--                    <li data-target="#myCarousel" data-slide-to="2"></li>-->
+<!--                    <li data-target="#myCarousel" data-slide-to="3"></li>-->
+<!--                </ol>-->
+<!---->
+<!--                <!-- Wrapper for slides -->
+<!--                <div class="carousel-inner" role="listbox">-->
+<!--                    <div class="item active">-->
+<!--                        <img src="public/image/edj3.jpg" alt="Escrime" width="460" height="345">-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="item">-->
+<!--                        <img src="public/image/escrimeNegative.jpg" alt="Escrime" width="460" height="345">-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="item">-->
+<!--                        <img src="public/image/fete_noel.jpg" alt="fete de Noel" width="460" height="345">-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="item">-->
+<!--                        <img src="public/image/escrime_bg_2.jpg" alt="escrime Negative" width="460" height="345">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <!-- Left and right controls -->
+<!--                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">-->
+<!--                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+<!--                    <span class="sr-only">Previous</span>-->
+<!--                </a>-->
+<!--                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">-->
+<!--                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+<!--                    <span class="sr-only">Next</span>-->
+<!--                </a>-->
+<!--            </div>-->
             <!-- Portfolio Grid Section -->
             <section id="portfolio" class="bg-light-gray">
                 <div class="container">
                     <div class="row">
+                        <p>C'est ici, que vous pourrez voir et revoir les photos prises durant les entrainements spéciaux, ou bien pendant les tournois. Nous vous rappelons qu'il sera demander à chacun un droit à l'image afin de pouvoir afficher les photos sur le site.</p>
                         <div class="col-md-4 col-sm-6 portfolio-item">
                             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                                 <div class="portfolio-hover">
@@ -102,7 +101,7 @@ include('includes/headerOthers.php');
                             </div>
                         </div>
                     </div>
-                    <p>C'est ici, que vous pourrez voir et revoir les photos prises durant les entrainements spéciaux, ou bien pendant les tournois. Nous vous rappelons qu'il sera demander à chacun un droit à l'image afin de pouvoir afficher les photos sur le site.</p>
+
 
                 </div>
             </section>
@@ -126,13 +125,12 @@ include('includes/headerOthers.php');
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h3>Etoile de Vénus</h3>
-                            <p class="item-intro text-muted">Rénovation complète du site</p>
-                            <img class="img-responsive img-centered" src="" alt="Site etoiledevenus.com">
-                            <p>Un site remis au goût du jour, grâce notamment, à la technologie du "Flat Design", du "Design Responsive"</p>
-                            <p>Ce site a été refait lorsque j'étais chez Aabas Interactive, avec une équipe de deux autres développeurs Back & Front End.</p>
+                            <h3>Le tournois des petits</h3>
+                            <p class="item-intro text-muted">Les poussins</p>
+                            <img class="img-responsive img-centered" src="public/image/edj3.jpg" alt="Site etoiledevenus.com">
+                            <p>Notre photographe nous a suivi partout ce jour ci afin de vous offrir des photos de votre enfants durant le tournois inter-club.</p>
+                            <p>N'hésitez pas à nous contacter pour obtenir les photos de votre enfants.</p>
                             <br>
-                            <img class="img-responsive img-centered" src="" alt="Site etoiledevenus.com">
 
                             <button type="button" class="btn btn-xl" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
                         </div>
@@ -155,13 +153,11 @@ include('includes/headerOthers.php');
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Créations personnelles Design</h2>
-                            <p class="item-intro text-muted">Photoshop, Illustrator, Premier Pro</p>
-                            <img class="img-responsive img-centered" src="" alt="Création Design">
-                            <img class="img-responsive img-centered" src="" alt="Création Design">
-
-                            <p>Un moment artistique, un pointe d'absurdité mais surtout des créations originales et authentiques. Ci-dessous, les Faire-part ont été créé pour qu'ils puisse être par la suite, plier sous forme de cocotte en papier.</p>
-                            <p>Merci de respecter le travail et les droits d'auteurs...</p>
+                            <h2>La fête de club de fin d'année</h2>
+                            <p class="item-intro text-muted">Les déguisements</p>
+                            <img class="img-responsive img-centered" src="public/image/fete_noel.jpg" alt="Création Design">
+                            <p>Le combat des mousquetaires, le spectacle de fin d'année... Revenez vivre ces moments, grâce à nos photos !</p>
+                            <p>N'hésitez pas à nous contacter pour obtenir les photos de votre enfants.</p>
 
                             <button type="button" class="btn btn-xl" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
                         </div>
@@ -184,11 +180,10 @@ include('includes/headerOthers.php');
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Site associatif de Montigny-les-Cormeilles</h2>
-                            <p class="item-intro text-muted">La clé, c'est la mode !</p>
-                            <img class="img-responsive img-centered" src="" alt="Site associatif d'Escrime">
-                            <p>C'est en formation que j'ai rencontré Dominique, l'un des gérants du club d'escrime de Montigny. C'est tout naturellement, que je lui ai proposé mon aide pour refaire son site qui était malheuresement figé dans les années 2000...</p>
-                            <p>Redéfinition de l'aspect visuel du site, Mock-up sous illustrator, création de logos, création d'un back office... etc</p>
+                            <h2>Les entrainements spéciaux pous les adultes</h2>
+                            <img class="img-responsive img-centered" src="public/image/escrimeNegative.jpg" alt="Site associatif d'Escrime">
+                            <p>Les photos, il n'y en a pas que pour les petits... Voici les photos des entrainements spéciaux des adultes.</p>
+                            <p>N'hésitez pas à nous contacter pour obtenir les photos.</p>
 
                             <button type="button" class="btn btn-xl" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
                         </div>
