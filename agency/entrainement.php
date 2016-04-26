@@ -26,6 +26,7 @@ include('includes/headerOthers.php');
         </div>
         <div class="row">
 <h2>Le calendrier du club</h2>
+            <p></p>
         </div>
 
     </div>

@@ -78,7 +78,7 @@
 		$_SESSION['profil']     = $ligne->users_profil;
 
 		
-		header('location: index.php');
+		header('location: index1.php');
 	}
 
 	if (!isset($_SESSION['users_firstname']))

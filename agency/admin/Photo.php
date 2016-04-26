@@ -1,104 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>SB Admin - Bootstrap Admin Template</title>
-        <!-- Bootstrap Core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom CSS -->
-        <link href="css/sb-admin.css" rel="stylesheet">
-        <!-- Morris Charts CSS -->
-        <link href="css/plugins/morris.css" rel="stylesheet">
-        <link href="css/dataTables.css" rel="stylesheet">
-        <!-- Custom Fonts -->
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="media/css/jquery.dataTables.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="js/jquery.js"></script>
-        <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js">  </script>
-        <script type="text/javascript" language="javascript" class="init">
-        $(document).ready(function() {
-            $('#example').DataTable( {
-                initComplete: function () {
-                    this.api().columns([1,2,3]).every( function () {
-                        var column = this;
-                        var select = $('<select><option value=""></option></select>')
-                                .appendTo( $(column.footer()).empty() )
-                                .on( 'change', function () {
-                                    var val = $.fn.dataTable.util.escapeRegex(
-                                            $(this).val()
-                                    );
+<?php
+include('enteteAdmin.php');
+?>
 
-                                    column
-                                            .search( val ? '^'+val+'$' : '', true, false )
-                                            .draw();
-                                } );
-
-                        column.data().unique().sort().each( function ( d, j ) {
-                            select.append( '<option value="'+d+'">'+d+'</option>' )
-                        } );
-                    } );
-                }
-            } );
-        } );
-    </script>
-        <script src="js/src/app.js"></script>
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    </head>
-    <body class="">
-        <div id="wrapper" class="">
-            <!-- Navigation -->
-            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">SB Admin</a>
-                </div>
-                <!-- Top Menu Items -->
-                <ul class="nav navbar-right top-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav side-nav">
-                        <li>
-                            <a href="index1.html"><i class="fa fa-fw fa-dashboard"></i>  Tableau de bord</a>
-                        </li>
-                        <li >
-                            <a href="utilisateur.html"><i class="fa fa-fw fa-user"></i> Utilisateur</a>
-                        </li>
-                        <li class="active">
-                            <a href="Photo.html"><i class="fa fa-fw fa-bar-chart-o"></i> Photo</a>
-                        </li>
-                        <li>
-                            <a href="News.html"><i class="fa fa-fw fa-table"></i> News</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </nav>
-            <div id="page-wrapper" class="">
+<div id="page-wrapper" class="">
                 <div class="container-fluid">
                     <!-- Page Heading -->
                     <div class="row">
@@ -160,7 +64,7 @@
                            <hr>-->
                                 <button type="button" data-target="#Nouveau_Contact" data-toggle="modal" class="btn btn-success btn-lg">
                                     <img src="media/images/signs.png" height="15">
-                                    <i class="fa fa-camera"></i>&nbsp;Ajouts de photo
+                                    <i class="fa fa-camera"></i>&nbsp;Ajouter de photos
                                 </button>
                                 <div class="panel-body">
                                     <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
